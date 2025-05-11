@@ -107,3 +107,74 @@ Description: A web application enabling school admins/coordinators to schedule a
 
 
 
+
+**Project Installation Instructions**
+
+**Prerequisites**
+
+**Ensure you have the following installed:**
+
+          1. Node.js (v16 or above)
+
+          2. npm (comes with Node.js)
+
+          3. MongoDB (running locally or Atlas cloud)
+
+Git
+
+**Folder Structure** Your project should have two main folders:
+
+**school_vaccination_portal/Backend**
+
+**school_vaccination_portal/Backend**
+
+
+**Backend Setup** (API + MongoDB)
+
+                    1. Navigate to the backend folder: bash: cd school_vaccination_portal/Backend
+
+                    2. Install dependencies:
+                              bash npm install
+
+                    3. Start MongoDB (if running locally):
+
+                    4. Use MongoDB Compass or run:
+
+                    5. bash npx nodemon index.js
+
+                    6. Start the backend server: Your backend will run on:  
+                    http://localhost:5000
+
+**Frontend Setup (React App)**
+
+                    1. Navigate to the frontend folder:
+
+                    2. bash cd ../Frontend
+
+                    3. Install dependencies: bash npm install
+
+                    4. Start the React frontend:bash **npm start**
+
+                    5. Your frontend will run on: 
+                    http://localhost:3000
+
+
+** Default Login Credentials**
+
+You can log in using the hardcoded users:
+
+Username: admin
+
+Password: admin123
+
+
+**Notes:** Ensure MongoDB is running.
+
+Keep both backend and frontend servers running in separate terminals.
+
+**Frontend** is configured for localhost:3000  
+
+**Backend:** localhost:5000 communication.
+
+
+
